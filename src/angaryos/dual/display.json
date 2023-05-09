@@ -1,0 +1,26 @@
+{
+  "mal_hizmet_tutari": "Mal Hizmet Tutarı",
+  "kdv_tutari": "KDV Tutarı",
+  "vergi_tutar": "Vergiler Dahil Toplam Tutar",
+  "iskonto_tutari": "İskonto Tutarı",
+  "diger_vergiler_toplam_tutar": "Diğer Vergiler Toplam Tutar",
+  "odenecek_tutar": "Ödenecek Tutar",
+  "alacak": "Alacak",
+  "borc": "Borç",
+  "dovizli_tutar": "Dövizli Tutar",
+
+  "net_ucret": "Net Ücret",
+  "kdv_tevkifat_tutari": "KDV Tevkifat Tutarı",
+  "net_tahsilat": "Net Tahsilat",
+  "gv_stopaj_tutari": "GV Stopaj Tutarı",
+  "mera_fonu_tutari": "Mera Fonu Tutarı",
+  "sgk_prim_kesintisi_tutari": "SGK Prim Kesintisi Tutarı",
+  "borsa_tescil_ucreti_tutari": "Borsa Tescil Ücreti",
+  "urun_hizmet_toplam_tutar": "Mal Hizmet Toplamı",
+  "toplam_iskonto": "Toplam İskonto",
+  "hesaplanan_kdv": "Toplam KDV",
+  "toplam_vergi_tutari": "Toplam Vergi",
+  "vergiler_dahil_toplam_tutar": "Vegiler Dahil Toplam",
+  "tevkifat_toplami": "Tevkifat Toplamı",
+  "ozel_matrah_toplami": "Özel Matrah Toplamı"
+}

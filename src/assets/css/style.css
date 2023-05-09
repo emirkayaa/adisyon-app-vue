@@ -1,0 +1,530 @@
+/* components/angaryos/ekle-modal.vue */
+.selectElipsis {
+    width: 100%;
+    appearance: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.select2-dropdown {
+    width: 100% !important;
+}
+
+.childColumnAddBtn {
+    position: absolute !important;
+    margin-top: -42px !important;
+    margin-left: calc(100% - 109px) !important;
+}
+
+
+
+
+
+/* components/angaryos/gecmis-modal.vue */
+.modal-header {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/* components/angaryos/kolon-ekle-modal.vue */
+.modal .aaa {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+
+
+
+
+
+/* components/angaryos/silinmis-modal.vue */
+
+
+
+
+
+
+/* components/externals/calendar.vue */
+
+.table-hover tbody tr:hover {
+    color: var(--primary-color) !important;
+    background-color: var(--theme-color-2-10) !important;
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.thsay div {
+    font-size: 13px !important;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.tdicisag {
+    background-color: var(--foreground-color);
+    border: 1px solid var(--theme-color-1) !important; 
+    margin:0 2px;
+}
+
+.tdicisag:hover {
+    background-color: var(--theme-color-1-10);
+}
+
+
+
+
+
+
+/* components/404.vue */
+
+.login .body {
+    background-color: #023262;
+    color: #fff;
+    font-size: 100%;
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body p {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 100;
+}
+
+.body .quotething {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 100;
+}
+
+.body h1 {
+    text-align: center;
+    font-size: 8em;
+    font-weight: 600;
+
+}
+
+.body .button404 {
+    text-align: center;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    margin: 1px;
+    padding: 12px 30px;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 13px/normal "Roboto", Times, serif;
+    color: var(--primary-color);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(255, 255, 255, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.body .button404:hover {
+    color: var(--foreground-color);
+    background: rgba(255, 255, 255, 0);
+}
+
+
+
+
+/* components/footer.vue */
+.mfooter {
+    padding-top: 9px !important;
+    border-top: none !important;
+    width: 100%;
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100%;
+    height: 39px !important;
+    background-color: var(--foreground-color) !important;
+}
+
+
+
+
+/* components/main.vue */
+::placeholder {
+    color: #ddd;
+}
+
+
+.login input,
+.login button {
+    display: inline-block;
+    width: 100%;
+    height: 3.23rem;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.login {
+    min-height: 100vh;
+    width: 100%;
+    background: #181c31;
+    background-size: cover;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .list-unstyled li{
+    margin-bottom: 0 !important;
+}
+.login .container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login .title {
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+.login h1{
+    color: white !important;
+}
+.login .social-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login .social-login button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 10rem;
+    margin: 0.75rem;
+    padding: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    transition: background 0.3s ease-in;
+}
+
+.login .social-login button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.login .social-login button i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    padidng-left: 2px;
+    text-align: center;
+    margin-right: 0.25rem;
+}
+
+.login .social-login button i.fa-facebook-f {
+    color: #000000;
+}
+
+.login .social-login button i.fa-google {
+    color: #000000;
+}
+
+.login .separator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .separator span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    margin: 1.5rem;
+}
+
+.login form {
+    width: 100%;
+}
+
+.login form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.login form .form-group label {
+    display: block;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    color: dark-blue;
+}
+
+.login form .form-group input {
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+    padding: 0 1.5rem;
+    color: #fff;
+}
+
+.login button {
+    background: #ecbb08;
+    color: #023262;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 1rem 0;
+    transition: all 0.3s linear;
+}
+
+.login button:hover {
+    background: #ffc800;
+    opacity: 0.8;
+}
+
+.login .additional-act {
+    width: 100%;
+    color: wheat;
+    text-align: center;
+    letter-spacing: 0.7px;
+    margin: 0.5rem 0;
+}
+
+.login .additional-act span {
+    color: #ecbb08;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* components/menu.vue */
+
+.borsaDiv {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.glide__arrow--left {
+    left: -2em !important;
+    border: none !important;
+}
+
+.glide__arrow--right {
+    right: -2em !important;
+    border: none !important;
+}
+
+.dashboardCard {
+    width: 25%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.dashboardCard2 {
+    width: 50%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 1600px) {
+    .dashboardCard {
+        width: 25%;
+        height: 100%;
+    }
+
+    .dashboardCard2 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1140px) {
+    .dashboardCard {
+        width: 33%;
+        height: 100%;
+    }
+
+    .dashboardCard2 {
+        width: 66%;
+    }
+}
+
+@media screen and (max-width: 1139px) and (min-width: 900px) {
+    .dashboardCard {
+        width: 50%;
+        height: 100%;
+    }
+
+    .dashboardCard2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 0px) {
+    .dashboardCard {
+        width: 100%;
+        height: 100%;
+    }
+
+    .dashboardCard2 {
+        width: 100%;
+    }
+}
+
+.dashboardParent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dashboardCard .card {
+    height: 100%;
+}
+
+
+/* components/navbar.vue */
+.list-unstyled li router-link {
+    font-weight: bolder;
+}
+
+.menu .main-menu ul li a {
+    border-bottom: none !important;
+}
+
+.menu-image-1:hover {
+    opacity: 0.6;
+}
+
+.menu-sifirla {
+    transform: translateX(0);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0 !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+}
+
+
+
+.collapseAuthorization .d-inline-block {
+    font-weight: 200;
+}
+
+.inner-level-menu .d-inline-block {
+    display: inline-block !important;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(180 180 180) ;
+}
+
+.menu .sub-menu ul.inner-level-menu li i {
+    color: rgb(180 180 180) ;
+}
+
+.d-inline-block {
+    font-weight: 500;
+    color: rgb(209, 208, 208);
+    font-size: 15px;
+}
+
+
+
+
+
+/* views/dashboard/ayarlar.vue */
+#tema-ayari {
+    position: relative;
+}
+
+.theme-colors {
+    position: inherit;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: 100%;
+    background: transparent;
+    transform: translate(0, 0);
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.theme-button {
+    display: none;
+}
+
+.theme-color {
+    margin-right: 5px;
+}
+
+
+/* views/dashboard/dashboard komponentleri */
+.cardsag {
+    box-shadow: inset 5px -7px 30px -5px var(--theme-color-1-10)
+}
+
+.dashP {
+    font-style: italic;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 100%;
+}
+.dashLoad{
+    position: absolute;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
+}

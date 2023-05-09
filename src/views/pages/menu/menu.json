@@ -1,0 +1,112 @@
+[
+  {
+    "icon": "bi bi-graph-up-arrow",
+    "title": "Dashboard",
+    "type": "link",
+    "href": "/",
+    "class": "dashboard-link"
+  },
+  {
+    "icon": "bi bi-file-earmark-spreadsheet",
+    "title": "Raporlama",
+    "type": "link",
+    "href": "/raporlar"
+  },
+  {
+    "title": "Tanımlamalar",
+    "icon": "bi bi-pencil-square",
+    "type": "menu",
+    "class": "tanimlamalar-parent-link",
+    "child": [
+      {
+        "icon": "bi bi-grid-1x2",
+        "title": "Masalar/Bölgeler",
+        "type": "link",
+        "href": "/tanimlama/masa-bolge",
+        "class": "tanimlama-masa-bolge"
+      },
+      {
+        "icon": "bi bi-cup-hot",
+        "title": "Menü/Kategoriler",
+        "type": "link",
+        "href": "/tanimlama/menu-urun",
+        "class": "tanimlama-urun-kategori"
+      },
+      {
+        "icon": "bi bi-person-vcard",
+        "title": "Müşteriler/Tedarikçiler",
+        "type": "link",
+        "href": "/tanimlama/musteri",
+        "class": "tanimlama-musteri-tedarikci"
+      },
+      {
+        "icon": "bi bi-person-up",
+        "title": "Kuver/Garsoniye",
+        "type": "link",
+        "href": "/tanimlama/kuver-garsoniye",
+        "class": "tanimlama-kuver-garsoniye"
+      },
+      {
+        "icon": "mdi mdi-silverware-fork-knife",
+        "title": "Mutfak",
+        "type": "link",
+        "href": "/tanimlama/mutfak",
+        "class": "tanimlama-mutfak"
+      }
+    ]
+  },
+  {
+    "icon": "bi bi-sliders",
+    "title": "Kontrol paneli",
+    "type": "menu",
+    "child": [
+      {
+        "icon": "bi bi-qr-code-scan",
+        "title": "QR Menü ayarları",
+        "type": "link",
+        "href": "/control-panel/qr-menu"
+      },
+      {
+        "icon": "bi bi-diagram-3",
+        "title": "Entegrator Ayarları",
+        "type": "link",
+        "href": "/control-panel/entegrator"
+      }
+    ]
+  },
+
+  {
+    "index": "11",
+    "title": "Firma",
+    "icon": "bi bi-building",
+    "type": "menu",
+    "child": [
+      {
+        "icon": "bi bi-people",
+        "title": "Çalışanlar",
+        "type": "link",
+        "href": "/hesap/calisanlar"
+      },
+      {
+        "index": "11-2",
+        "icon": "bi bi-pc-display-horizontal",
+        "title": "Cihazlar",
+        "type": "link",
+        "href": "/hesap/cihazlar"
+      },
+      {
+        "index": "11-2",
+        "icon": "bi bi-building",
+        "title": "Firma",
+        "type": "link",
+        "href": "/hesap/firma"
+      },
+      {
+        "icon": "bi bi-file-earmark-text",
+        "title": "Hesap",
+        "type": "link",
+        "href": "/hesap/hesap"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+  <base href="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script>if (localStorage.getItem('theme') == 'dark') document.getElementById('page-loader').style['background-color'] = 'rgb(30,32,34)'</script>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="<%= BASE_URL %>_assets/bootstrap.css">
+  <link rel="stylesheet" href="<%= BASE_URL %>_assets/loading.css">
+  <meta name="theme-color" id="theme-c" content="var(--theme-color)">
+</head>
+<div style="position: relative">
+  <div id="page-loader" class=" text-center page-loader">
+    <div class="w-100 h-100 flex-column d-flex justify-content-center align-items-center">
+      <img src="/_assets/cooking.gif" height="65px" alt="">
+      <span class="mt-2 fs-5">Yükleniyor...</span>
+    </div>
+  </div>
+</div>
+<body class="p-0">
+  <div id="app"></div>
+</body>
+</html>
